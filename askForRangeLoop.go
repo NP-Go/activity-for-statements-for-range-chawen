@@ -8,5 +8,8 @@ func main() {
 		result *= i
 	}
 
+	// value as index
+	// call for range
+
 	fmt.Println("Results", result)
 }
