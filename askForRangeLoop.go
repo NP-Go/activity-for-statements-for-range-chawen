@@ -1,5 +1,12 @@
 package main
 
+import "fmt"
+
 func main() {
-	//Insert code for only even here
+	result := 1
+	for i := 1; i < 5; i++ {
+		result *= i
+	}
+
+	fmt.Println("Results", result)
 }
